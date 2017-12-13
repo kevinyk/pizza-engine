@@ -5,11 +5,11 @@ This is an express app tied to a single-component Angular application.
 **Setup and installation:**
 
 1. From the project root, `npm install` to install the needed dependencies for the express server.
-2. `nodemon` from the terminal, and you are good to go! (Make sure `mongod` is up and running as well!)
-3. If you wish to modify the angular source code:
-	4. `cd public` to get into the angular directory
-	5. `npm install` to install angular and its dependencies
-	6. `ng build -w` to rebuild your angular app whenever changes are made.
+2. `cd public` to get into the angular directory
+3. `npm install` to install angular and its dependencies
+4. `ng build -w` to rebuild your angular app whenever changes are made.
+5. `cd ..` to navigate back to the project root
+6. `nodemon` from the terminal, and you are good to go! (Make sure `mongod` is up and running as well!)
 
 **Important Files**
 
